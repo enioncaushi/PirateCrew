@@ -1,4 +1,4 @@
-/* App.css */
+
 .pirate-details {
   display: flex;
   justify-content: space-between;
@@ -23,7 +23,7 @@
   text-align: center;
   border: 4px solid black;
 }
-/* App.css */
+
 .container {
   justify-content: space-around;
 
@@ -43,7 +43,7 @@
   margin-left: 50px;
 }
 
-/* App.css */
+
 .nav {
   background-color: brown;
   border-bottom: 4px solid black;
@@ -76,14 +76,14 @@
 .pirate-box button, .pirate-box a {
   margin-right: 10px;
 }
-/* App.css */
+
 body {
  
   background-color: white;
   border: 4px solid black;
 }
 
-/* App.css */
+
 button, .nav a {
   background-color: blue;
   color: white;
@@ -92,13 +92,13 @@ button, .nav a {
   border-radius: 5px;
   cursor: pointer;
   box-shadow: 2px 2px 5px black;
-  text-decoration: none; /* This is to remove the underline from the anchor tags styled as buttons */
-  transition: transform 0.2s; /* Smooth transition for the hover effect */
+  text-decoration: none; 
+  transition: transform 0.2s; 
 }
 
 button:hover, .nav a:hover {
-  transform: translateY(-2px); /* Slight upward movement on hover */
-  box-shadow: 4px 4px 5px black; /* Increase shadow depth on hover */
+  transform: translateY(-2px); 
+  box-shadow: 4px 4px 5px black; 
 }
 
 .pirate-box {

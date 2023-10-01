@@ -33,7 +33,7 @@ module.exports.getPirate = (req, res) => {
 module.exports.updatePirate = (req, res) => {
     Pirate.findByIdAndUpdate(req.params.id, req.body, { new: true, runValidators: true })
         .then(updatedPirate => res.json(updatedPirate))
-        .catch(err => res.status(400).json(err));
+        .catch(err => res.status(300).json(err));
 };
 
 module.exports.deletePirate = (req, res) => {
